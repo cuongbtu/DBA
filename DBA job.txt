@@ -1,0 +1,37 @@
+Nhiệm vụ DBA
+1. Cài đặt phần mềm Oracle ( thuê chuyên gia, người hãng cài )
+2. Tạo cơ sở dữ liệu Oracle ( triển khai dự án mới có phụ trách nhiệm )
+3. Thực hiện nâng cấp cơ sở dữ liệu và phần mềm lên các phiên bản mới
+	Muốn nấp cấp lên phải test kỹ, có nhiều tính năng và có nhiều dữ liệu
+4. Bật tắt instance database
+	Chậm treo, giải phóng tài nguyên, log. Khi restart thì nghiệp vụ sẽ bị gián đoạn
+5. Quản lý cấu trúc lưu trữ ( tablespace, undo, redo) 
+	Quy hoạch, chứa dữ liệu lớn nhiều T
+6. Quản lý người dùng, phân quyền bảo mật
+7. Quản lý đối tượng Object trong database : table, index, view
+8. Sao lưu database backup và recovery
+	Lưu bảng backup
+9. Theo dõi (moniter) trạng thái database và thực hiện hành động phòng ngừa khắc phục theo yêu cầu (quản trị)
+10. Điều chỉnh hiệu suất (tunning) database
+11. Cấp cứu (SOS) database lớn 24/7 của Telco, Bank, ...
+	Khi treo, database rối loạn bị thua lỗ mất doanh thu 
+12. Khắc phục lỗi (troubleshooting) của database
+13. Bảo mật database
+	Xác thực IP, giám sát ... đối với database
+14. Đồng bộ database ( DataGuard, GoldenGate, Mview)
+	Có 2 database 1 chính và 1 dự phòng trong trường hợp lỗi.
+15. Quản trị máy chủ Exadata
+	Máy chủ chuyên dụng chứa các database server, có switch kết nối server.
+	Server chứa đĩa các vùng database
+16. Quản lý phần cứng máy chủ
+17. Tự động hóa giám sát, quản trị database
+	Tự động OS, DB xóa log, gửi báo cáo
+18. Báo cáo hoạt động database
+19. Thiết kế bảng, xóa dữ liệu ,..( làm việc với dev - nguyên tác backup)
+
+Làm việc ngành DBA
+1. Có kinh nghiệm thực tế:
+	Làm việc doanh nghiệp lớn
+	Học tập từ chuyên gia thực chiến tại các doanh nghiệp lớn
+2. Có các chứng chỉ quốc tế OCP, OCE
+
